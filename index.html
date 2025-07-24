@@ -1,42 +1,133 @@
-<div class="categories">
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Slides" alt="Slides">
-        <h3>Slides (1911, Glock, etc.)</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Frames" alt="Frames">
-        <h3>Frames / Lowers</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Rails" alt="Rails">
-        <h3>Handguards / Rails</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Barrels" alt="Barrels">
-        <h3>Outer / Inner Barrels</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Triggers" alt="Triggers">
-        <h3>Triggers / Hammers / Sears</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Suppressors" alt="Suppressors">
-        <h3>Suppressors / Mock Suppressors</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Bolt+Carriers" alt="Bolt Carriers">
-        <h3>Bolt Carriers</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Grips" alt="Grips">
-        <h3>Grips / Stocks</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Mounts" alt="Mounts">
-        <h3>Mounts / Optics Rails</h3>
-    </div>
-    <div class="category">
-        <img src="https://placehold.co/400x180?text=Engraving" alt="Engraving">
-        <h3>Custom Logo Engraving</h3>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veltrix by JituDynamic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'Rajdhani', sans-serif;
+            background-color: #111;
+            color: #eee;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-height: 60px;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            color: #ffc107;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #bbb;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .category {
+            background-color: #222;
+            border: 1px solid #333;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .category img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .category h3 {
+            margin-top: 15px;
+            color: #ffc107;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: #aaa;
+            padding: 30px;
+            text-align: center;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/veltrix_logo.png" alt="Veltrix Logo" />
+    </header>
+
+    <section class="hero">
+        <h1>Veltrix by JituDynamic</h1>
+        <p>OEM Firearm & Airsoft Parts Manufacturer for Commercial Customers</p>
+    </section>
+
+    <section class="categories">
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3995/10825/pmc_parts_glock_kit_blk_2__39734.1682701819.jpg" alt="Slides">
+            <h3>Slides (1911, Glock, etc.)</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3264/9274/strike_industry_1911_frame_kit__94226.1665944166.jpg" alt="Frames">
+            <h3>Frames / Lowers</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/2818/7797/strike_industries_fde_rail__74879.1662231252.jpg" alt="Rails">
+            <h3>Handguards / Rails</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3536/10171/outer_barrel_glock__73815.1678232343.jpg" alt="Barrels">
+            <h3>Outer / Inner Barrels</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3724/10462/ar_trigger_group__70610.1680790021.jpg" alt="Triggers">
+            <h3>Triggers / Hammers / Sears</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3529/10064/ar15_suppressor_mock__69845.1677655363.jpg" alt="Suppressors">
+            <h3>Suppressors / Mock Suppressors</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3044/8560/boltcarrier__66570.1664120600.jpg" alt="Bolt Carriers">
+            <h3>Bolt Carriers</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3840/10610/ar_grip__34433.1681775382.jpg" alt="Grips">
+            <h3>Grips / Stocks</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3978/10805/optics_mount__99664.1682566370.jpg" alt="Mounts">
+            <h3>Mounts / Optics Rails</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn11.bigcommerce.com/s-3rz6snk0h2/images/stencil/1280x1280/products/3055/8592/logo_engraving_muzzle__79115.1664203151.jpg" alt="Engraving">
+            <h3>Custom Logo Engraving</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us at <a href="mailto:soh@grancen.com">soh@grancen.com</a> | WhatsApp: +65 91097821 | <a href="https://www.grancen.com.sg">www.grancen.com.sg</a></p>
+        <p>Veltrix by JituDynamic &copy; 2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>
